@@ -1,5 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .titulo{
     background: rgb(58, 58, 58);
     color: white;
-    height: 500px;
 }
