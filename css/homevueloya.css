@@ -3,16 +3,20 @@
     padding: 0px;
 }
 
+/*Botones VueloYa-Login*/
 .enviar-izquierda{
     margin-right: auto;
-    background-color: rgb(209, 209, 209);
-    width: 70px;
+    background-color: rgb(238, 238, 238);
+    width: 90px;
     padding: 10px;
     height: 20px;
     margin-left: -45px;
     border-radius: 15px;
     text-align: end;
-    border: solid 2px rgb(202, 202, 202);
+    border: solid 2px rgb(234, 234, 234);
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
 .enviar-izquierda:hover{
@@ -36,23 +40,26 @@ nav ul{
 }
 
 nav li{
-    background: rgb(209, 209, 209);
-    width: 375px;
+    background: rgb(238, 238, 238);
+    width: 220px;
     padding: 10px;
     height: 20px;
-    margin-right: -45px;
+    margin-right: -60px;
     border-radius: 15px;
     list-style: none;
     cursor: pointer;
-    border: solid 2px rgb(202, 202, 202);
+    border: solid 2px rgb(234, 234, 234);
+    font-weight: bold;
 }
 
 nav li:hover{
     background: salmon;
 }
+/*Botones VueloYa-Login*/
 
+/*Contenedor-Uno*/
 #contenedor{
-    background: rgb(209, 209, 209);
+    background: rgb(238, 238, 238);
     margin-bottom: 1px;
     margin-top:  1px;
     display: flex;
@@ -61,19 +68,23 @@ nav li:hover{
 
 #contenedorinterno{
     flex-grow: 1;
-    background: rgb(28, 75, 157);
+    background: rgb(26, 68, 141);
     height: 250px;
     margin-bottom: 1px;
     margin-top: 1px;
     margin: auto;
 }
 
-.buscador, p{
+.subtitulo, p{
     color: white;
     margin-top: 15px;
     margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
+/*Contenedor-Uno*/
 
+/*Botones-Seleccionar*/
 .botonuno{
     background: rgb(255, 255, 255);
     margin-left: 120px;
@@ -94,3 +105,93 @@ nav li:hover{
     margin-left: 145px;
     margin-top: -15px;
 }
+
+.botondos{
+    background: rgb(255, 255, 255);
+    margin-left: 210px;
+    margin-top: -19px;
+    height: 5px;
+    padding: 5px;
+    width: 5px;
+    border-radius: 5px;
+    border: solid 2px rgb(151, 151, 151);
+}
+
+.botondos:hover{
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+}
+
+.idayvuelta{
+    margin-left: 235px;
+    margin-top: -15px;
+}
+
+.botontres{
+    background: rgb(255, 255, 255);
+    margin-left: 610px;
+    margin-top: -19px;
+    height: 5px;
+    padding: 5px;
+    width: 5px;
+    border-radius: 5px;
+    border: solid 2px rgb(151, 151, 151);
+}
+
+.botontres:hover{
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+}
+
+.economica{
+    margin-left: 635px;
+    margin-top: -15px;
+}
+
+.botoncuatro{
+    background: rgb(255, 255, 255);
+    margin-left: 750px;
+    margin-top: -19px;
+    height: 5px;
+    padding: 5px;
+    width: 5px;
+    border-radius: 5px;
+    border: solid 2px rgb(151, 151, 151);
+}
+
+.botoncuatro:hover{
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+}
+
+.ejecutiva{
+    margin-left: 775px;
+    margin-top: -15px;
+}
+/*Botones-Seleccionar*/
+
+/*Buscador*/
+.buscadoruno{
+    background: rgb(238, 238, 238);
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 50px;
+    padding: 30px;
+    width: 150px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    
+}
+
+h6{
+    color: rgb(202, 202, 202);
+    margin-top: -8px;
+    margin-left: -10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.desde{
+    margin-top: 35px;
+}
+/*Buscador*/
