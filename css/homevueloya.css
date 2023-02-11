@@ -9,9 +9,10 @@
     width: 70px;
     padding: 10px;
     height: 20px;
-    margin-left: -50px;
+    margin-left: -45px;
     border-radius: 15px;
     text-align: end;
+    border: solid 2px rgb(202, 202, 202);
 }
 
 .enviar-izquierda:hover{
@@ -20,7 +21,6 @@
 }
 
 #menu{
-    background-color: rgb(43, 43, 43);
     color: rgb(54, 54, 54);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -44,8 +44,53 @@ nav li{
     border-radius: 15px;
     list-style: none;
     cursor: pointer;
+    border: solid 2px rgb(202, 202, 202);
 }
 
 nav li:hover{
     background: salmon;
+}
+
+#contenedor{
+    background: rgb(209, 209, 209);
+    margin-bottom: 1px;
+    margin-top:  1px;
+    display: flex;
+    height: 300px;
+}
+
+#contenedorinterno{
+    flex-grow: 1;
+    background: rgb(28, 75, 157);
+    height: 250px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin: auto;
+}
+
+.buscador, p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.botonuno{
+    background: rgb(255, 255, 255);
+    margin-left: 120px;
+    margin-top: -19px;
+    height: 5px;
+    padding: 5px;
+    width: 5px;
+    border-radius: 5px;
+    border: solid 2px rgb(151, 151, 151);
+}
+
+.botonuno:hover{
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+}
+
+.ida{
+    margin-left: 145px;
+    margin-top: -15px;
 }
