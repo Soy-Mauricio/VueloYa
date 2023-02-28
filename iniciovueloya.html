@@ -4,53 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/homevueloya.css">
+    <link rel="stylesheet" href="/CSS/homevueloya.css">
     <title>VueloYa</title>
 </head>
 <body>
-    <section id="menu">
-        <nav>
-            <ul>
-                <div class="enviar-izquierda">VueloYa</div>
-                <li>Iniciar Sesión |</li>
-                <li>Mis Viajes |</li>
-                <li>Contacto: 009-93-87 |</li>
-            </ul>
-        </nav>
-    </section>
-
+    <header>
+        <div class="container">
+            <p class="logo">VueloYa</p>
+            <nav>
+                <a href="#">Iniciar Sesión</a>
+                <a href="#">Mis Viajes</a>
+                <a href="#">Contacto: 009-69-96</a>
+            </nav>
+        </div>
+    </header>
+    
     <section id="contenedor">
         <section id="contenedorinterno">
-            <section class="subtitulo">
-                <p>VUELOS</p>
-                    <div class="botonuno"></div>
-                        <div class="ida">
-                            <h5>Solo ida</h5>
-                        </div>
-                    <div class="botondos"></div>
-                        <div class="idayvuelta">
-                            <h5>Ida y vuelta</h5>
-                        </div>
-                    <div class="botontres"></div>
-                        <div class="economica">
-                            <h5>Clase Económica</h5>
-                        </div>
-                    <div class="botoncuatro"></div>
-                        <div class="ejecutiva">
-                            <h5>Clase Ejecutiva</h5>
-                        </div>
-                    <div class="buscadoruno">
-                        <div>
-                            <h6>Origen:</h6>
-                        </div>
-                        <div class="desde">
-                            <h6>Ingresa desde...</h6>
-                        </div>
+            <div class="container">
+                <section class="subtitulo">
+                        <p>VUELOS</p>    
+                </section>
+                <div class="botonuno"></div>
+                    <div class="ida">
+                        <h5>Solo ida</h5>
                     </div>
-                    <div class="buscadordos"></div>
-                    
-            </section>
+                <div class="botondos"></div>
+                    <div class="idayvuelta">
+                        <h5>Ida y vuelta</h5>
+                    </div>
+                <div class="botontres"></div>
+                    <div class="economica">
+                        <h5>Clase Económica</h5>
+                    </div>
+                <div class="botoncuatro"></div>
+                    <div class="ejecutiva">
+                        <h5>Clase Ejecutiva</h5>
+                    </div>
+                <div class="buscadoruno">
+                    <div class="origen">
+                        <h6>Origen: <br> <br> <br>
+                        Ingresa origen</h6>
+                    </div>
+                </div>
+                <div class="buscadordos">
+                    <div class="destino">
+                        <h6>Destino: <br> <br> <br>
+                        Ingresa destino</h6>
+                    </div>
+                </div>
+                <div class="buscadortres">
+                    <div class="fechas">
+                        <h6>Fechas: <br> <br> <br>
+                        Ida</h6>
+                    </div>
+                </div>
+                <div class="buscadorcuatro">
+                    <div class="regreso">
+                        <h6> <br> <br> <br>
+                        Vuelta</h6>
+                    </div>
+                </div>
+                <div class="buscadorcinco">
+                    <div class="pasajeros">
+                        <h6>Pasajeros: <br> <br> <br>
+                        1 Adulto</h6>
+                    </div>
+                </div>
+                <div class="buscar">
+                    <a href="#">Buscar</a>
+                </div>
+            </div>
         </section>
+    </section>
+
+
+    <div class="container">
+        <h3>Ofertas que no te puedes perder</h3>
+    </div>
+
+    <section id="ofertas">
+        <div class="container">
+            <div class="contenedoruno">
+                <div class="carta">
+                    <div class="carta-img"></div>
+                    <div class="info-ofertas-uno">
+                        <p>Paquete a Francia Paris</p>
+                        <p>Desde DOM 09 Abr Hasta MIÉ 12 Abr</p>
+                        <p>Vuelo directo BOG - PAR</p>
+                        <hr>
+                        <p>Precio final por persona</p>
+                        <del>$450</del>
+                        <p>Super Oferta</p>
+                        <p>$350</p>
+                        <hr>
+                        <p>Incluye impuestos</p>
+                    </div>
+                </div>
+
+                <div class="cartados">
+                    <div class="carta-imgdos"></div>
+                    <div class="info-ofertas-uno">
+                        <p>Paquete a San Andres</p>
+                        <p>Desde DOM 14 Mar Hasta MIÉ 18 Mar</p>
+                        <p>Vuelo directo BOG - SAN</p>
+                        <hr>
+                        <p>Precio final por persona</p>
+                        <del>$350</del>
+                        <p>Super Oferta</p>
+                        <p>$250</p>
+                        <hr>
+                        <p>Incluye impuestos</p>
+                    </div>
+                </div> 
+                
+                <div class="cartatres">
+                    <div class="carta-imgtres"></div>
+                    <div class="info-ofertas-uno">
+                        <p>Paquete a Tokyo</p>
+                        <p>Desde SAB 20 Jun Hasta JUE 25 Jun</p>
+                        <p>Vuelo directo BOG - TOKY</p>
+                        <hr>
+                        <p>Precio final por persona</p>
+                        <del>$850</del>
+                        <p>Super Oferta</p>
+                        <p>$750</p>
+                        <hr>
+                        <p>Incluye impuestos</p>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <section id="destinos">
+            <div class="container">
+                <div class="topdestinos"><p>Top Destinos más buscados de Colombia</p></div>
+                    <div class="contenedordos">
+
+                        <div class="topuno">
+                            <div class="topimguno"></div>
+                            <div class="info-top-uno"></div>
+                            <p></p>
+                        </div>
+                        
+                        <div class="topdos">
+                            <div class="topimguno"></div>
+                            <div class="info-top-uno"></div>
+                            <p></p>
+                        </div>
+                          
+                    </div>          
+            </div>
     </section>
 
 </body>
